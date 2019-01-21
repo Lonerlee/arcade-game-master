@@ -121,9 +121,9 @@ function scoreBoardUpdate() {
       loses +
       " | WINS %: " +
       Math.round((wins / (wins + loses)) * 100);
-  } else {
+  } else if (wins > 0) {
     document.getElementById("scoreValue").innerHTML =
-      "WINS: " + wins + " | LOSES: " + loses + " | WINS %: " + 0;
+      "WINS: " + wins + " | LOSES: " + loses + " | WINS %: " + 100;
   }
 }
 
