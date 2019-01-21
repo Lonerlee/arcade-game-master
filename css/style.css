@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+
+.scoreBoard {
+  background-color: rgb(150, 150, 150);
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+#scoreValue {
+  font-size: 25px;
+  background-color: rgb(95, 95, 95);
+}
